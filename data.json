@@ -47,14 +47,14 @@
       "zone": "攝影棚區",
       "brand": "BulbSquare",
       "name": "蘑菇落地燈",
-      "price": 18900,
+      "price": 0,
       "list": null,
       "qty": 1,
       "size": "H140cm",
       "color": "綠／紅（未定）",
       "spec": "實景區氛圍燈，顏色需與地毯一起看",
       "url": "",
-      "img": "",
+      "img": "photos/seed2-1786568614552.jpg",
       "status": "待確認",
       "log": [],
       "d": {
@@ -68,7 +68,7 @@
         "v": "no"
       },
       "order": 1,
-      "updatedAt": 1
+      "updatedAt": 1786568616411
     },
     {
       "id": "seed3",
@@ -138,5 +138,5 @@
     }
   ],
   "deleted": [],
-  "updatedAt": 1786568234366
+  "updatedAt": 1786568619294
 }

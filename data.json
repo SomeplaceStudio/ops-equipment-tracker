@@ -102,8 +102,36 @@
       },
       "order": 2,
       "updatedAt": 1786567877338
+    },
+    {
+      "id": "msqkkzgoso85e",
+      "zone": "廁所",
+      "name": "Melt Mini 熔岩壁燈",
+      "brand": "Tom Dixon",
+      "price": 29440,
+      "qty": 1,
+      "size": "Ø30 x 深 25 cm",
+      "color": "Cooper紅色",
+      "spec": "調光：可配合壁面開關進行調光\n光源：內建 LED，色溫 3000K，亮度 800 lm\n瓦數：6W；電壓：220V ( *110V 環境請洽專員 )\n保固2年",
+      "url": "https://www.luxurylife.com.tw/products/tom-dixon-melt-surface-mini-led-wall-lamp-30cm",
+      "list": null,
+      "img": "photos/msqkkzgoso85e-1786568207496.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 3,
+      "updatedAt": 1786568209486
     }
   ],
   "deleted": [],
-  "updatedAt": 1786567880507
+  "updatedAt": 1786568212658
 }

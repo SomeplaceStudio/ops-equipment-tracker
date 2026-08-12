@@ -1,0 +1,17 @@
+{
+  "name": "OPS 設備追蹤",
+  "short_name": "OPS 設備",
+  "description": "選品 → 設計師確認 → 夥伴確認 → 進場的設備清單管理",
+  "lang": "zh-Hant",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#F3EDE3",
+  "theme_color": "#1B1512",
+  "start_url": "./",
+  "scope": "./",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -43,8 +43,8 @@ body{
 }
 button,input,select,textarea{font-family:inherit;font-size:inherit;color:inherit}
 button{cursor:pointer;border:none;background:none}
-.mono{font-family:"DM Mono",monospace;font-variant-numeric:tabular-nums}
-.wrap{max-width:var(--wrap);margin:0 auto}
+body.readonly .fab{display:none}
+body.readonly{padding-bottom:40px}
 
 /* ── 深色頂部 ───────────────────── */
 .top{
@@ -52,9 +52,32 @@ button{cursor:pointer;border:none;background:none}
   padding:calc(env(safe-area-inset-top) + 22px) 18px 20px;
   border-radius:0 0 22px 22px;
 }
+.tophead{display:flex;align-items:flex-start;gap:12px}
+.tophead .l{flex:1;min-width:0}
 .eyebrow{font-size:10px;letter-spacing:.28em;color:#C0754A;font-weight:500}
 h1{font-family:"Noto Serif TC",serif;font-weight:500;font-size:26px;margin:5px 0 2px}
 .sub{font-size:12px;color:#9A8B7F;margin-bottom:18px}
+
+/* 同步狀態＋按鈕 */
+.topbtns{display:flex;flex-direction:column;align-items:flex-end;gap:7px;flex:0 0 auto;padding-top:2px}
+.pill{font-size:10.5px;letter-spacing:.06em;border-radius:999px;padding:4px 10px;white-space:nowrap;
+  display:inline-flex;align-items:center;gap:6px}
+.sync{color:#9A8B7F;border:1px solid var(--line-d)}
+.sync i{width:6px;height:6px;border-radius:50%;background:#9A8B7F;flex:0 0 auto}
+.sync[data-s="live"]{color:#8FA981;border-color:rgba(143,169,129,.3)}
+.sync[data-s="live"] i{background:#8FA981}
+.sync[data-s="view"]{color:#8A9BB0;border-color:rgba(138,155,176,.3)}
+.sync[data-s="view"] i{background:#8A9BB0}
+.sync[data-s="pending"]{color:#C9A24B;border-color:rgba(201,162,75,.32)}
+.sync[data-s="pending"] i{background:#C9A24B;animation:blink .9s infinite}
+.sync[data-s="off"]{color:#C4796A;border-color:rgba(196,121,106,.3)}
+.sync[data-s="off"] i{background:#C4796A}
+@keyframes blink{50%{opacity:.3}}
+.topact{display:flex;gap:6px}
+.tbtn{font-size:10.5px;letter-spacing:.06em;color:#C0754A;border:1px solid rgba(192,117,74,.35);
+  border-radius:999px;padding:4px 10px;white-space:nowrap}
+.tbtn:hover{background:rgba(192,117,74,.15)}
+
 .gauge-top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:11px}
 .gnum{font-family:"DM Mono",monospace;font-size:25px;color:#C9A24B;font-variant-numeric:tabular-nums}
 .gnum small{font-size:11px;color:#9A8B7F;margin-left:5px}
@@ -116,6 +139,7 @@ main{padding:0 14px}
 .statsel{display:flex;align-items:center;gap:7px}
 .dotmark{width:8px;height:8px;border-radius:50%;flex:0 0 auto}
 select.status{flex:1;background:transparent;border:none;font-size:13.5px;padding:2px 0;appearance:none;font-weight:400;cursor:pointer}
+.statictext{flex:1;font-size:13.5px;padding:2px 0}
 .chev{color:var(--text-dim);font-size:10px}
 .tl{margin-top:7px;display:flex;flex-direction:column;gap:3px}
 .tl div{font-size:10.5px;color:var(--text-dim);font-family:"DM Mono",monospace}
@@ -125,7 +149,6 @@ select.status{flex:1;background:transparent;border:none;font-size:13.5px;padding
 
 /* 卡片操作：編輯／刪除 */
 .rowacts{display:flex;gap:6px;margin-top:auto;padding-top:10px}
-.rowacts .chip{display:inline-flex;align-items:center;gap:4px}
 .chip.edit{color:var(--copper);border-color:rgba(176,101,63,.35)}
 .chip.del{color:var(--clay);border-color:rgba(164,76,60,.3)}
 .chip.del:hover{background:var(--clay);border-color:var(--clay);color:#fff}
@@ -165,10 +188,10 @@ select.status{flex:1;background:transparent;border:none;font-size:13.5px;padding
        display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}
   .card{margin-bottom:0}
   .empty-zone{grid-column:1 / -1}
-  .grip{cursor:grab}
+  .topbtns{flex-direction:row;align-items:center}
 }
 
-/* ── 新增／編輯 ─────────────────── */
+/* ── 面板 ───────────────────────── */
 .fab{position:fixed;left:50%;transform:translateX(-50%);
   bottom:calc(env(safe-area-inset-bottom) + 20px);
   background:var(--ink);color:#EFE7DC;font-size:14.5px;padding:14px 28px;
@@ -213,11 +236,30 @@ textarea{resize:vertical;min-height:70px}
 .parse{display:flex;gap:8px;align-items:center;justify-content:center;width:100%;
   background:var(--field);border:1px solid var(--line);color:var(--copper);
   border-radius:10px;padding:11px;font-size:13px;margin-bottom:15px}
-.save{width:100%;background:var(--copper);color:#FFFCF6;border-radius:11px;padding:15px;font-size:15px;margin-top:4px}
+.save{width:100%;background:var(--copper);color:#FFFCF6;border-radius:11px;padding:15px;font-size:15px;margin-top:4px;
+  display:flex;align-items:center;justify-content:center;gap:8px}
+.save:disabled{opacity:.6;cursor:default}
 .cancel{width:100%;padding:12px;color:var(--text-dim);font-size:13px}
+.danger{width:100%;padding:12px;color:var(--clay);font-size:13px}
 @keyframes spin{to{transform:rotate(360deg)}}
 .spin{width:13px;height:13px;border:2px solid rgba(176,101,63,.25);border-top-color:var(--copper);
-  border-radius:50%;animation:spin .7s linear infinite}
+  border-radius:50%;animation:spin .7s linear infinite;flex:0 0 auto;display:inline-block}
+.save .spin{border-color:rgba(255,252,246,.35);border-top-color:#FFFCF6}
+
+/* 設定面板 */
+.tokenstate{display:inline-block;font-size:11px;padding:3px 10px;border-radius:999px;
+  background:var(--field);color:var(--text-dim);margin-bottom:14px}
+.tokenstate.on{background:rgba(95,122,82,.15);color:var(--sage)}
+.steps{background:var(--field);border-radius:10px;padding:12px 14px;margin-bottom:14px;
+  font-size:11.5px;line-height:1.75;color:var(--text-dim)}
+.steps b{color:var(--text);font-weight:500}
+.steps ol{margin:6px 0 0;padding-left:18px}
+.steps code{font-family:"DM Mono",monospace;font-size:11px;background:var(--card);
+  padding:1px 5px;border-radius:4px;color:var(--copper)}
+.steps a{color:var(--copper)}
+.warn{border-left:2px solid var(--clay);padding-left:10px;margin-top:10px;color:var(--clay);font-size:11px;line-height:1.6}
+.muted{font-size:10.5px;color:var(--text-dim);margin:-6px 0 12px}
+
 .toast{position:fixed;left:50%;transform:translate(-50%,18px);
   bottom:calc(env(safe-area-inset-bottom) + 92px);background:var(--ink);color:#EFE7DC;
   font-size:13px;padding:10px 20px;border-radius:999px;z-index:80;opacity:0;
@@ -229,8 +271,20 @@ textarea{resize:vertical;min-height:70px}
 <body>
 
 <div class="top">
-  <div class="eyebrow">SOMEPLACE STUDIO</div>
-  <h1>設備追蹤</h1>
+  <div class="tophead">
+    <div class="l">
+      <div class="eyebrow">SOMEPLACE STUDIO</div>
+      <h1>設備追蹤</h1>
+    </div>
+    <div class="topbtns">
+      <button class="pill sync" id="sync" data-s="boot" title="點一下立即同步"><i></i><span id="syncText">讀取中</span></button>
+      <div class="topact">
+        <button class="tbtn" id="btnSyncNow">同步</button>
+        <button class="tbtn" id="btnShare">分享</button>
+        <button class="tbtn" id="btnSettings">設定</button>
+      </div>
+    </div>
+  </div>
   <div class="sub">永和・14.5 坪｜選品 → 設計師確認 → 夥伴確認 → 進場</div>
   <div class="gauge-top">
     <div><div class="gnum" id="gTotal">—<small>NT$</small></div><div class="glabel">目前累計金額</div></div>
@@ -246,10 +300,12 @@ textarea{resize:vertical;min-height:70px}
 <button class="fab" id="fab">＋ 新增設備</button>
 
 <div class="scrim" id="scrim"></div>
+
+<!-- 新增／編輯 -->
 <section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
   <div class="grab"></div>
   <h2 id="sheetTitle">新增設備</h2>
-  <p class="hint" id="sheetHint">照片會自動壓縮後存下來，不用先修圖。</p>
+  <p class="hint" id="sheetHint">照片會自動壓縮後上傳，不用先修圖。</p>
 
   <div class="drop" id="drop">
     <img id="prevImg" hidden alt="">
@@ -283,291 +339,39 @@ textarea{resize:vertical;min-height:70px}
   <button class="cancel" id="btnCancel">取消</button>
 </section>
 
+<!-- 設定 -->
+<section class="sheet" id="settings" role="dialog" aria-modal="true" aria-labelledby="setTitle">
+  <div class="grab"></div>
+  <h2 id="setTitle">設定</h2>
+  <p class="hint">清單存在 GitHub。任何人打開連結都能檢視；要編輯需要一組權杖。</p>
+
+  <span class="tokenstate" id="tokenState">目前：唯讀檢視</span>
+
+  <div class="f"><label for="fRepo">資料存放的 repo</label>
+    <input id="fRepo" placeholder="帳號/repo 名稱"></div>
+  <p class="muted" id="repoAuto"></p>
+
+  <div class="steps">
+    <b>怎麼拿到編輯權杖</b>
+    <ol>
+      <li>到 GitHub → Settings → Developer settings → <b>Fine-grained tokens</b></li>
+      <li>Generate new token，Repository access 選 <b>Only select repositories</b>，只勾這一個 repo</li>
+      <li>Repository permissions → <code>Contents</code> 設為 <b>Read and write</b></li>
+      <li>產生後複製貼到下面</li>
+    </ol>
+    <div class="warn">權杖存在這台裝置的瀏覽器裡。能打開這個瀏覽器的人就能取得它，也就等於能改這個 repo。共用電腦請用完按「清除權杖」。</div>
+  </div>
+
+  <div class="f"><label for="fToken">編輯權杖</label>
+    <input id="fToken" type="password" autocomplete="off" placeholder="github_pat_⋯"></div>
+
+  <button class="save" id="btnSaveToken">驗證並啟用編輯</button>
+  <button class="danger" id="btnForget" hidden>清除權杖，改回唯讀</button>
+  <button class="cancel" id="btnCancelSet">關閉</button>
+</section>
+
 <div class="toast" id="toast"></div>
 
-<script>
-const ZONES=["接待區","攝影棚區","梳化間","廁所","辦公室"];
-const STATUS=[
- {k:"待確認",c:"#B3A392"},{k:"已確認選用",c:"#9A7A24"},{k:"已下訂",c:"#B0653F"},
- {k:"已付款",c:"#7A5EA0"},{k:"已出貨",c:"#3F7F94"},{k:"已送達",c:"#5F7A52"},
- {k:"已安裝",c:"#41705C"},{k:"退回重選",c:"#A44C3C"}];
-const sc=k=>(STATUS.find(s=>s.k===k)||STATUS[0]).c;
-const KEY="ops:equip:v2";
-
-let items=[], zone=ZONES[0];
-
-const SEED=[
- {id:1,zone:"接待區",brand:"Louis Poulsen",name:"Enigma 425 吊燈",price:31065,list:38000,qty:1,
-  size:"Ø42.2×H74cm",color:"霧白壓克力",spec:"E27／需預留天花吊點與調光迴路",url:"",img:"",
-  status:"已付款",log:[{k:"已確認選用",at:"07/22"},{k:"已下訂",at:"07/26"},{k:"已付款",at:"07/28"}],
-  d:{text:"吊點從吧台檯面往上 78cm，我改一版天花圖。",at:"07/28 14:20",v:"ok"},p:{text:"",at:"",v:""}},
- {id:2,zone:"攝影棚區",brand:"BulbSquare",name:"蘑菇落地燈",price:18900,list:null,qty:1,
-  size:"H140cm",color:"綠／紅（未定）",spec:"實景區氛圍燈，顏色需與地毯一起看",url:"",img:"",
-  status:"待確認",log:[],
-  d:{text:"",at:"",v:""},p:{text:"紅色跟地毯會打架，投綠色一票。",at:"08/02 21:05",v:"no"}},
- {id:3,zone:"廁所",brand:"OVO 京典",name:"C3379 單體馬桶",price:10852,list:18500,qty:1,
-  size:"管距 30cm",color:"白",spec:"管距須現場複測後才能下單",url:"",img:"",
-  status:"已確認選用",log:[{k:"已確認選用",at:"08/05"}],
-  d:{text:"拆除後我量一次管距再回你。",at:"08/05 10:11",v:"ok"},p:{text:"",at:"",v:""}}];
-
-const $=s=>document.querySelector(s);
-const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const today=()=>{const d=new Date();return `${String(d.getMonth()+1).padStart(2,"0")}/${String(d.getDate()).padStart(2,"0")}`};
-const stamp=()=>{const d=new Date();return `${today()} ${String(d.getHours()).padStart(2,"0")}:${String(d.getMinutes()).padStart(2,"0")}`};
-function toast(m){const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(t._);t._=setTimeout(()=>t.classList.remove("on"),1900)}
-
-/* ── 儲存：瀏覽器 localStorage ────────────────── */
-function load(){
-  try{
-    const raw=localStorage.getItem(KEY);
-    if(raw){const v=JSON.parse(raw); if(Array.isArray(v)){items=v;return}}
-  }catch(e){console.warn("讀取失敗，改用預設清單",e)}
-  items=SEED; save();
-}
-/* 回傳 true 代表寫入成功；localStorage 約 5MB，照片太多會滿 */
-function save(){
-  try{localStorage.setItem(KEY,JSON.stringify(items));return true}
-  catch(e){console.error(e);toast("瀏覽器儲存空間已滿，請先刪除幾筆含照片的設備");return false}
-}
-
-function drawGauge(){
-  const total=items.reduce((a,i)=>a+(i.price||0)*(i.qty||1),0);
-  $("#gTotal").innerHTML=total.toLocaleString()+'<small>NT$</small>';
-  $("#gCount").textContent=items.length;
-  const by={};items.forEach(i=>by[i.status]=(by[i.status]||0)+(i.price||0)*(i.qty||1));
-  const on=total?STATUS.filter(s=>by[s.k]):[];
-  $("#gBar").innerHTML=on.length?on.map(s=>`<span style="width:${by[s.k]/total*100}%;background:${s.c}"></span>`).join(""):'<span style="width:100%;background:#3A2F28"></span>';
-  $("#gLegend").innerHTML=on.map(s=>`<div><i style="background:${s.c}"></i>${s.k} ${Math.round(by[s.k]/total*100)}%</div>`).join("");
-}
-function drawZones(){
-  $("#zones").innerHTML=ZONES.map(z=>`<button class="zone" role="tab" aria-selected="${z===zone}" data-z="${z}">${z}<span class="n">${items.filter(i=>i.zone===z).length}</span></button>`).join("");
-}
-function replyBlock(it,role){
-  const who=role==="d"?"設計師":"夥伴";
-  const n=it[role]||{text:"",at:"",v:""};
-  const flag=n.v==="ok"?'<span class="flag ok">已確認</span>':n.v==="no"?'<span class="flag no">需討論</span>':"";
-  return `<div class="reply">
-    <div class="rhead"><b>${who}</b>回覆${flag}</div>
-    ${n.text?`<div class="bubble">${esc(n.text)}<span class="stamp">${n.at}</span></div>`:`<div class="bubble empty">尚未回覆</div>`}
-    <div class="acts">
-      <button class="chip ok" aria-pressed="${n.v==="ok"}" data-vote="ok" data-role="${role}" data-id="${it.id}">✓</button>
-      <button class="chip no" aria-pressed="${n.v==="no"}" data-vote="no" data-role="${role}" data-id="${it.id}">需討論</button>
-      <button class="chip write" data-write="${role}" data-id="${it.id}">${n.text?"編輯":"寫意見"}</button>
-    </div></div>`;
-}
-function drawList(){
-  const rows=items.filter(i=>i.zone===zone);
-  if(!rows.length){$("#list").innerHTML=`<div class="empty-zone"><b>${zone}還沒有設備</b>按下方「新增設備」開始建檔。</div>`;return}
-  $("#list").innerHTML=rows.map(it=>`
-  <article class="card" data-id="${it.id}">
-    <div class="grip" title="拖曳排序"><svg viewBox="0 0 11 22" fill="currentColor" aria-hidden="true"><circle cx="2.5" cy="4" r="1.6"/><circle cx="8.5" cy="4" r="1.6"/><circle cx="2.5" cy="11" r="1.6"/><circle cx="8.5" cy="11" r="1.6"/><circle cx="2.5" cy="18" r="1.6"/><circle cx="8.5" cy="18" r="1.6"/></svg></div>
-    <div class="body">
-      <div class="prod">
-        <div class="photo">${it.img?`<img src="${esc(it.img)}" alt="${esc(it.name)}">`:"未加照片"}</div>
-        <div class="brand">${esc(it.brand||"—")}</div>
-        <div class="name">${esc(it.name)}</div>
-        <div class="specs">
-          ${it.size?`<span class="spec">${esc(it.size)}</span>`:""}
-          ${it.color?`<span class="spec">${esc(it.color)}</span>`:""}
-          ${it.qty>1?`<span class="spec">×${it.qty}</span>`:""}
-        </div>
-        <div class="price">${(it.price||0).toLocaleString()}${it.list?`<s>${it.list.toLocaleString()}</s>`:""}${it.qty>1?`<small>小計 ${((it.price||0)*it.qty).toLocaleString()}</small>`:""}</div>
-        ${it.spec?`<div class="memo">${esc(it.spec)}</div>`:""}
-        <div class="stat">
-          <div class="statsel">
-            <span class="dotmark" style="background:${sc(it.status)}"></span>
-            <select class="status" data-id="${it.id}" style="color:${sc(it.status)}" aria-label="${esc(it.name)} 狀態">
-              ${STATUS.map(s=>`<option ${s.k===it.status?"selected":""}>${s.k}</option>`).join("")}
-            </select><span class="chev">▾</span>
-          </div>
-          ${(it.log||[]).length?`<div class="tl">${it.log.map(l=>`<div>${l.at}<b>${l.k}</b></div>`).join("")}</div>`:""}
-        </div>
-        ${it.url?`<a class="linkbtn" href="${esc(it.url)}" target="_blank" rel="noopener">商品頁 ↗</a>`:""}
-        <div class="rowacts">
-          <button class="chip edit" data-edit="${it.id}">編輯</button>
-          <button class="chip del" data-del="${it.id}">刪除</button>
-        </div>
-      </div>
-      <div class="replies">${replyBlock(it,"d")}${replyBlock(it,"p")}</div>
-    </div>
-  </article>`).join("");
-}
-const render=()=>{drawGauge();drawZones();drawList()};
-
-/* ── 互動 ─────────────────────────────────── */
-document.addEventListener("click",e=>{
-  const z=e.target.closest("[data-z]");
-  if(z){zone=z.dataset.z;render();return}
-
-  const v=e.target.closest("[data-vote]");
-  if(v){const it=items.find(i=>i.id==v.dataset.id);if(!it)return;
-    const n=it[v.dataset.role]||={text:"",at:"",v:""};
-    n.v=n.v===v.dataset.vote?"":v.dataset.vote;n.at=stamp();save();render();
-    toast(n.v==="ok"?"已標記確認":n.v==="no"?"已標記需討論":"已取消標記");return}
-
-  const w=e.target.closest("[data-write]");
-  if(w){const it=items.find(i=>i.id==w.dataset.id);if(!it)return;
-    const n=it[w.dataset.write]||={text:"",at:"",v:""};
-    const t=prompt(`${w.dataset.write==="d"?"設計師":"夥伴"}意見`,n.text||"");
-    if(t===null)return; n.text=t.trim();n.at=stamp();save();render();return}
-
-  const ed=e.target.closest("[data-edit]");
-  if(ed){openSheet(items.find(i=>i.id==ed.dataset.edit));return}
-
-  const dl=e.target.closest("[data-del]");
-  if(dl){
-    const idx=items.findIndex(i=>i.id==dl.dataset.del); if(idx<0)return;
-    const it=items[idx];
-    if(!confirm(`刪除「${it.name}」？此動作無法復原。`))return;
-    items.splice(idx,1); save(); render(); toast("已刪除");return}
-});
-
-document.addEventListener("change",e=>{
-  if(e.target.matches("select.status")){
-    const it=items.find(i=>i.id==e.target.dataset.id); if(!it)return;
-    it.status=e.target.value;
-    it.log=(it.log||[]).filter(l=>l.k!==it.status);
-    it.log.push({k:it.status,at:today()});
-    save();render();toast(`${today()} ${it.status}`);
-  }
-});
-
-/* ── 拖曳排序 ─────────────────────────────── */
-let dragEl=null;
-document.addEventListener("pointerdown",e=>{
-  const g=e.target.closest(".grip"); if(!g)return;
-  dragEl=g.closest(".card"); dragEl.classList.add("dragging");
-  dragEl.style.pointerEvents="none"; g.setPointerCapture(e.pointerId);
-});
-document.addEventListener("pointermove",e=>{
-  if(!dragEl)return; e.preventDefault();
-  const el=document.elementFromPoint(e.clientX,e.clientY);
-  const over=el&&el.closest(".card");
-  if(over&&over!==dragEl){
-    const r=over.getBoundingClientRect();
-    over.parentNode.insertBefore(dragEl, e.clientY<r.top+r.height/2?over:over.nextSibling);
-  }
-},{passive:false});
-document.addEventListener("pointerup",()=>{
-  if(!dragEl)return;
-  dragEl.classList.remove("dragging"); dragEl.style.pointerEvents="";
-  dragEl=null;
-  const order=[...document.querySelectorAll(".card")].map(c=>+c.dataset.id);
-  const inZone=items.filter(i=>i.zone===zone), rest=items.filter(i=>i.zone!==zone);
-  items=[...rest,...order.map(id=>inZone.find(i=>i.id===id)).filter(Boolean)];
-  save(); drawGauge();
-});
-
-/* ── 照片壓縮 ─────────────────────────────── */
-let photoData="";      // 這次選的新照片
-let photoCleared=false; // 編輯時按了移除
-
-$("#fPhoto").onchange=function(){
-  const f=this.files[0]; if(!f)return;
-  const r=new FileReader();
-  r.onload=()=>{const im=new Image();im.onload=()=>{
-    const M=1000, s=Math.min(1,M/Math.max(im.width,im.height));
-    const c=document.createElement("canvas");
-    c.width=Math.round(im.width*s); c.height=Math.round(im.height*s);
-    c.getContext("2d").drawImage(im,0,0,c.width,c.height);
-    photoData=c.toDataURL("image/jpeg",.82); photoCleared=false;
-    showPhoto(photoData,`已壓縮 ${Math.round(photoData.length/1365)} KB・點擊可更換`);
-  };im.onerror=()=>toast("這張圖讀不進來，換一張試試");im.src=r.result};
-  r.onerror=()=>toast("檔案讀取失敗");
-  r.readAsDataURL(f);
-};
-function showPhoto(src,hint){
-  const p=$("#prevImg"); p.src=src; p.hidden=false;
-  $("#dropText").textContent="";
-  const h=$("#dropHint");
-  h.textContent=hint; h.style.position="relative"; h.style.color="#FFFCF6";
-  h.style.textShadow="0 1px 6px rgba(0,0,0,.7)";
-  $("#dropClear").hidden=false;
-}
-function resetPhoto(){
-  photoData="";photoCleared=false;
-  $("#prevImg").hidden=true;$("#prevImg").removeAttribute("src");$("#fPhoto").value="";
-  $("#dropText").textContent="＋ 加入照片";
-  const h=$("#dropHint");h.textContent="拍照或從相簿選，自動壓縮";
-  h.style.position="";h.style.color="";h.style.textShadow="";
-  $("#dropClear").hidden=true;
-}
-$("#dropClear").onclick=e=>{e.stopPropagation();resetPhoto();photoCleared=true;toast("已移除照片")};
-
-/* ── 面板：新增／編輯共用 ─────────────────── */
-const sheet=$("#sheet"),scrim=$("#scrim");
-let editId=null;
-
-function openSheet(it){
-  editId = it ? it.id : null;
-  $("#fZone").innerHTML=ZONES.map(z=>`<option ${z===(it?it.zone:zone)?"selected":""}>${z}</option>`).join("");
-  $("#sheetTitle").textContent = it ? "編輯設備" : "新增設備";
-  $("#sheetHint").textContent  = it ? "改完按下方「儲存修改」。狀態與意見不會被覆蓋。" : "照片會自動壓縮後存下來，不用先修圖。";
-  $("#btnSave").textContent    = it ? "儲存修改" : "加入清單";
-
-  $("#fUrl").value  = it?.url   || "";
-  $("#fName").value = it?.name  || "";
-  $("#fBrand").value= it?.brand || "";
-  $("#fPrice").value= it?.price ?? "";
-  $("#fQty").value  = it?.qty   || 1;
-  $("#fSize").value = it?.size  || "";
-  $("#fColor").value= it?.color || "";
-  $("#fSpec").value = it?.spec  || "";
-
-  resetPhoto();
-  if(it?.img) showPhoto(it.img,"點擊可更換照片");
-
-  sheet.classList.add("on");scrim.classList.add("on");
-  sheet.scrollTop=0;
-}
-const close=()=>{sheet.classList.remove("on");scrim.classList.remove("on");editId=null};
-
-$("#fab").onclick=()=>openSheet(null);
-$("#btnCancel").onclick=close;
-scrim.onclick=close;
-document.addEventListener("keydown",e=>{if(e.key==="Escape"&&sheet.classList.contains("on"))close()});
-
-$("#btnParse").onclick=function(){
-  if(!$("#fUrl").value.trim()){toast("先貼上商品連結");return}
-  this.disabled=true;this.innerHTML='<span class="spin"></span> 讀取商品頁⋯';
-  setTimeout(()=>{this.disabled=false;this.textContent="從連結帶入資料";toast("這個站台擋抓取，請手動補齊")},1500);
-};
-
-$("#btnSave").onclick=()=>{
-  const name=$("#fName").value.trim(); if(!name){toast("品名還沒填");return}
-  const form={
-    zone:$("#fZone").value, name,
-    brand:$("#fBrand").value.trim(),
-    price:+$("#fPrice").value||0,
-    qty:+$("#fQty").value||1,
-    size:$("#fSize").value.trim(),
-    color:$("#fColor").value.trim(),
-    spec:$("#fSpec").value.trim(),
-    url:$("#fUrl").value.trim()
-  };
-
-  if(editId!==null){
-    const it=items.find(i=>i.id===editId); if(!it){close();return}
-    const backup=JSON.stringify(it);
-    Object.assign(it,form);
-    it.img = photoData ? photoData : (photoCleared ? "" : it.img);
-    if(!save()){Object.assign(it,JSON.parse(backup));return}
-    zone=form.zone; render(); close(); toast("已更新");
-  }else{
-    items.push({id:Date.now(),...form,list:null,img:photoData,
-      status:"待確認",log:[],d:{text:"",at:"",v:""},p:{text:"",at:"",v:""}});
-    if(!save()){items.pop();return}
-    zone=form.zone; render(); close(); toast("已加入清單");
-  }
-  resetPhoto();
-};
-
-/* ── PWA ──────────────────────────────────── */
-if("serviceWorker" in navigator){
-  window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(e=>console.warn("SW 未註冊",e)));
-}
-
-load(); render();
-</script>
+<script type="module" src="js/app.js"></script>
 </body>
 </html>

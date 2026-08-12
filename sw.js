@@ -1,7 +1,11 @@
 /* OPS 設備追蹤 — 離線快取
    改版時把 VERSION 加一，使用者下次開啟就會拿到新版。 */
-const VERSION = "ops-equip-v1";
-const SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
+const VERSION = "ops-equip-v3";
+
+const SHELL = [
+  "./", "./index.html", "./js/app.js", "./js/store.js",
+  "./manifest.json", "./icon-192.png", "./icon-512.png",
+];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -15,9 +19,18 @@ self.addEventListener("activate", e => {
   );
 });
 
+/* 資料的來源絕不能被快取——一旦攔下來，同步就會永遠拿到舊清單。
+   data.json 也排除：它是資料，不是靜態資源，由 app 自己管快取。 */
+const PASS_THROUGH = [
+  /^https:\/\/api\.github\.com\//,
+  /^https:\/\/raw\.githubusercontent\.com\//,
+  /\/data\.json(\?|$)/,
+];
+
 self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET") return;
+  if (PASS_THROUGH.some(re => re.test(req.url))) return;
 
   // 頁面本身走 network-first，確保部署後拿得到新版
   if (req.mode === "navigate") {

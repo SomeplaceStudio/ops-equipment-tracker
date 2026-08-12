@@ -75,7 +75,7 @@
       "zone": "廁所",
       "brand": "OVO 京典",
       "name": "C3379 單體馬桶",
-      "price": 10852,
+      "price": 10800,
       "list": 18500,
       "qty": 1,
       "size": "管距 30cm",
@@ -101,9 +101,9 @@
         "v": ""
       },
       "order": 2,
-      "updatedAt": 1
+      "updatedAt": 1786567648179
     }
   ],
   "deleted": [],
-  "updatedAt": 1786567530837
+  "updatedAt": 1786567651159
 }

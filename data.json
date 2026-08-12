@@ -116,8 +116,13 @@
       "url": "https://www.luxurylife.com.tw/products/tom-dixon-melt-surface-mini-led-wall-lamp-30cm",
       "list": null,
       "img": "photos/msqkkzgoso85e-1786568207496.jpg",
-      "status": "待確認",
-      "log": [],
+      "status": "已付款",
+      "log": [
+        {
+          "k": "已付款",
+          "at": "08/13"
+        }
+      ],
       "d": {
         "text": "",
         "at": "",
@@ -129,9 +134,9 @@
         "v": ""
       },
       "order": 3,
-      "updatedAt": 1786568209486
+      "updatedAt": 1786568231482
     }
   ],
   "deleted": [],
-  "updatedAt": 1786568212658
+  "updatedAt": 1786568234366
 }

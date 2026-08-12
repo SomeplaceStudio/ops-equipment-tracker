@@ -78,11 +78,11 @@
       "price": 10800,
       "list": 18500,
       "qty": 1,
-      "size": "管距 30cm",
+      "size": "D65xW37xH76cm,管距 30cm",
       "color": "白",
       "spec": "管距須現場複測後才能下單",
-      "url": "",
-      "img": "",
+      "url": "https://www.ovotoilet.com/zh-TW/Products/Product?guid=24031314485348",
+      "img": "photos/seed3-1786567875574.jpg",
       "status": "已確認選用",
       "log": [
         {
@@ -101,9 +101,9 @@
         "v": ""
       },
       "order": 2,
-      "updatedAt": 1786567669113
+      "updatedAt": 1786567877338
     }
   ],
   "deleted": [],
-  "updatedAt": 1786567671938
+  "updatedAt": 1786567880507
 }

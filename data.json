@@ -252,8 +252,36 @@
       },
       "order": 7,
       "updatedAt": 1786596763055
+    },
+    {
+      "id": "msr1pa1pm64qa",
+      "zone": "廁所",
+      "name": "淋浴套組A-槍灰色",
+      "brand": "蝦皮",
+      "price": 4011,
+      "qty": 1,
+      "size": "L31*W13",
+      "color": "槍灰色/全銅",
+      "spec": "安裝孔距13.5～16",
+      "url": "https://tw.shp.ee/acfiNvij",
+      "list": null,
+      "img": "photos/msr1pa1pm64qa-1786596961309.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 8,
+      "updatedAt": 1786596963313
     }
   ],
   "deleted": [],
-  "updatedAt": 1786596766161
+  "updatedAt": 1786596966226
 }

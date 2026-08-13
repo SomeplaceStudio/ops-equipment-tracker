@@ -280,8 +280,36 @@
       },
       "order": 6,
       "updatedAt": 1786593104315
+    },
+    {
+      "id": "msr3in48srexd",
+      "zone": "梳化間",
+      "name": "磨砂棕台上盆+鵝頸水龍頭",
+      "brand": "蝦皮",
+      "price": 6000,
+      "qty": 1,
+      "size": "L46*W33*H13.5",
+      "color": "磨砂棕/陶瓷+黑/鋁",
+      "spec": "",
+      "url": "https://tw.shp.ee/SXhJcCnT",
+      "list": null,
+      "img": "photos/msr3in48srexd-1786600010889.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 7,
+      "updatedAt": 1786600012627
     }
   ],
   "deleted": [],
-  "updatedAt": 1786599825855
+  "updatedAt": 1786600015539
 }

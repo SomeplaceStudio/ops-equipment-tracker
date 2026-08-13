@@ -135,8 +135,36 @@
       },
       "order": 3,
       "updatedAt": 1786568231482
+    },
+    {
+      "id": "msqvbo7tggkm5",
+      "zone": "梳化間",
+      "name": "矩型吸頂燈",
+      "brand": "聚美照明",
+      "price": 2789,
+      "qty": 1,
+      "size": "L90*W60,110V,138W",
+      "color": "壓克力+鐵藝",
+      "spec": "3000k-6000k",
+      "url": "",
+      "list": null,
+      "img": "photos/msqvbo7tggkm5-1786586248793.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 4,
+      "updatedAt": 1786586250615
     }
   ],
   "deleted": [],
-  "updatedAt": 1786568619294
+  "updatedAt": 1786586253592
 }

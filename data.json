@@ -145,7 +145,7 @@
       "qty": 1,
       "size": "L90*W60,110V,138W",
       "color": "壓克力+鐵藝",
-      "spec": "3000k-6000k",
+      "spec": "3000k-6000k，app+遙控器",
       "url": "",
       "list": null,
       "img": "photos/msqvbo7tggkm5-1786586248793.jpg",
@@ -162,9 +162,9 @@
         "v": ""
       },
       "order": 4,
-      "updatedAt": 1786586250615
+      "updatedAt": 1786586556626
     }
   ],
   "deleted": [],
-  "updatedAt": 1786586253592
+  "updatedAt": 1786586559653
 }

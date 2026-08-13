@@ -40,7 +40,7 @@
         "v": ""
       },
       "order": 0,
-      "updatedAt": 1786567527945
+      "updatedAt": 1786596343848
     },
     {
       "id": "seed2",
@@ -67,8 +67,8 @@
         "at": "08/02 21:05",
         "v": "no"
       },
-      "order": 1,
-      "updatedAt": 1786596332291
+      "order": 2,
+      "updatedAt": 1786596343848
     },
     {
       "id": "seed3",
@@ -137,34 +137,6 @@
       "updatedAt": 1786568231482
     },
     {
-      "id": "msqvbo7tggkm5",
-      "zone": "梳化間",
-      "name": "矩型吸頂燈",
-      "brand": "聚美照明",
-      "price": 2789,
-      "qty": 1,
-      "size": "L90*W60,110V,138W",
-      "color": "壓克力+鐵藝",
-      "spec": "3000k-6000k，app+遙控器",
-      "url": "",
-      "list": null,
-      "img": "photos/msqvbo7tggkm5-1786586248793.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "order": 4,
-      "updatedAt": 1786586556626
-    },
-    {
       "id": "msqwmp0210yn6",
       "zone": "接待區",
       "name": "定制實木大門",
@@ -194,8 +166,36 @@
         "at": "",
         "v": ""
       },
-      "order": 5,
-      "updatedAt": 1786588466048
+      "order": 3,
+      "updatedAt": 1786596343848
+    },
+    {
+      "id": "msqvbo7tggkm5",
+      "zone": "梳化間",
+      "name": "矩型吸頂燈",
+      "brand": "聚美照明",
+      "price": 2789,
+      "qty": 1,
+      "size": "L90*W60,110V,138W",
+      "color": "壓克力+鐵藝",
+      "spec": "3000k-6000k，app+遙控器",
+      "url": "",
+      "list": null,
+      "img": "photos/msqvbo7tggkm5-1786586248793.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 4,
+      "updatedAt": 1786586556626
     },
     {
       "id": "msqzekhg8obzj",
@@ -227,5 +227,5 @@
     }
   ],
   "deleted": [],
-  "updatedAt": 1786596335137
+  "updatedAt": 1786596346770
 }

@@ -308,8 +308,36 @@
       },
       "order": 7,
       "updatedAt": 1786600012627
+    },
+    {
+      "id": "msr3lme7qjj3o",
+      "zone": "攝影棚區",
+      "name": "白色軌道燈",
+      "brand": "",
+      "price": 0,
+      "qty": 1,
+      "size": "",
+      "color": "",
+      "spec": "",
+      "url": "",
+      "list": null,
+      "img": "photos/msr3lme7qjj3o-1786600149919.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 8,
+      "updatedAt": 1786600151939
     }
   ],
   "deleted": [],
-  "updatedAt": 1786600015539
+  "updatedAt": 1786600154904
 }

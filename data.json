@@ -43,34 +43,6 @@
       "updatedAt": 1786596359786
     },
     {
-      "id": "seed2",
-      "zone": "接待區",
-      "brand": "BulbSquare",
-      "name": "蘑菇落地燈",
-      "price": 0,
-      "list": null,
-      "qty": 1,
-      "size": "H140cm",
-      "color": "綠／紅（未定）",
-      "spec": "實景區氛圍燈，顏色需與地毯一起看",
-      "url": "",
-      "img": "photos/seed2-1786568614552.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "紅色跟地毯會打架，投綠色一票。",
-        "at": "08/02 21:05",
-        "v": "no"
-      },
-      "order": 2,
-      "updatedAt": 1786596359786
-    },
-    {
       "id": "seed3",
       "zone": "廁所",
       "brand": "OVO 京典",
@@ -100,8 +72,8 @@
         "at": "",
         "v": ""
       },
-      "order": 2,
-      "updatedAt": 1786567877338
+      "order": 0,
+      "updatedAt": 1786599822971
     },
     {
       "id": "msqkkzgoso85e",
@@ -133,8 +105,64 @@
         "at": "",
         "v": ""
       },
-      "order": 3,
-      "updatedAt": 1786568231482
+      "order": 1,
+      "updatedAt": 1786599822971
+    },
+    {
+      "id": "msr1kzhon1fc6",
+      "zone": "廁所",
+      "name": "淋浴套組B-槍灰色",
+      "brand": "蝦皮",
+      "price": 3700,
+      "qty": 1,
+      "size": "L27.1*W11.5*H5",
+      "color": "槍灰色/全銅",
+      "spec": "安裝管距13.5～16.5cm",
+      "url": "https://tw.shp.ee/4Sjfj6VE",
+      "list": null,
+      "img": "photos/msr1kzhon1fc6-1786596761004.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 2,
+      "updatedAt": 1786599822971
+    },
+    {
+      "id": "seed2",
+      "zone": "接待區",
+      "brand": "BulbSquare",
+      "name": "蘑菇落地燈",
+      "price": 0,
+      "list": null,
+      "qty": 1,
+      "size": "H140cm",
+      "color": "綠／紅（未定）",
+      "spec": "實景區氛圍燈，顏色需與地毯一起看",
+      "url": "",
+      "img": "photos/seed2-1786568614552.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "紅色跟地毯會打架，投綠色一票。",
+        "at": "08/02 21:05",
+        "v": "no"
+      },
+      "order": 2,
+      "updatedAt": 1786596359786
     },
     {
       "id": "msqwmp0210yn6",
@@ -168,6 +196,34 @@
       },
       "order": 3,
       "updatedAt": 1786596359786
+    },
+    {
+      "id": "msr1pa1pm64qa",
+      "zone": "廁所",
+      "name": "淋浴套組A-槍灰色",
+      "brand": "蝦皮",
+      "price": 4011,
+      "qty": 1,
+      "size": "L31*W13",
+      "color": "槍灰色/全銅",
+      "spec": "安裝孔距13.5～16",
+      "url": "https://tw.shp.ee/acfiNvij",
+      "list": null,
+      "img": "photos/msr1pa1pm64qa-1786596961309.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 3,
+      "updatedAt": 1786599822971
     },
     {
       "id": "msqvbo7tggkm5",
@@ -224,64 +280,8 @@
       },
       "order": 6,
       "updatedAt": 1786593104315
-    },
-    {
-      "id": "msr1kzhon1fc6",
-      "zone": "廁所",
-      "name": "淋浴套組B-槍灰色",
-      "brand": "蝦皮",
-      "price": 3700,
-      "qty": 1,
-      "size": "L27.1*W11.5*H5",
-      "color": "槍灰色/全銅",
-      "spec": "安裝管距13.5～16.5cm",
-      "url": "https://tw.shp.ee/4Sjfj6VE",
-      "list": null,
-      "img": "photos/msr1kzhon1fc6-1786596761004.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "order": 7,
-      "updatedAt": 1786597001421
-    },
-    {
-      "id": "msr1pa1pm64qa",
-      "zone": "廁所",
-      "name": "淋浴套組A-槍灰色",
-      "brand": "蝦皮",
-      "price": 4011,
-      "qty": 1,
-      "size": "L31*W13",
-      "color": "槍灰色/全銅",
-      "spec": "安裝孔距13.5～16",
-      "url": "https://tw.shp.ee/acfiNvij",
-      "list": null,
-      "img": "photos/msr1pa1pm64qa-1786596961309.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "order": 8,
-      "updatedAt": 1786596963313
     }
   ],
   "deleted": [],
-  "updatedAt": 1786597004423
+  "updatedAt": 1786599825855
 }

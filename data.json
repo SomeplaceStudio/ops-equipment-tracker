@@ -196,8 +196,36 @@
       },
       "order": 5,
       "updatedAt": 1786588466048
+    },
+    {
+      "id": "msqzekhg8obzj",
+      "zone": "辦公室",
+      "name": "隱藏門",
+      "brand": "淘寶",
+      "price": 7500,
+      "qty": 1,
+      "size": "H240*W80",
+      "color": "玻鎂板+鋁框",
+      "spec": "塗料門可上霧鄉色，帶同色把手（注意要加鎖）\n三種芯未定（實木芯（隔音）、鋁蜂窩芯（輕）、石墨均質板）",
+      "url": "",
+      "list": null,
+      "img": "photos/msqzekhg8obzj-1786593102388.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 6,
+      "updatedAt": 1786593104315
     }
   ],
   "deleted": [],
-  "updatedAt": 1786588469332
+  "updatedAt": 1786593107249
 }

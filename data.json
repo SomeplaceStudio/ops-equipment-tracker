@@ -224,8 +224,36 @@
       },
       "order": 6,
       "updatedAt": 1786593104315
+    },
+    {
+      "id": "msr1kzhon1fc6",
+      "zone": "廁所",
+      "name": "淋浴套組-槍灰色",
+      "brand": "蝦皮",
+      "price": 3700,
+      "qty": 1,
+      "size": "L27.1*W11.5*H5",
+      "color": "槍灰色/全銅",
+      "spec": "冷熱水埋管距13.5～16.5cm皆可",
+      "url": "https://tw.shp.ee/4Sjfj6VE",
+      "list": null,
+      "img": "photos/msr1kzhon1fc6-1786596761004.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 7,
+      "updatedAt": 1786596763055
     }
   ],
   "deleted": [],
-  "updatedAt": 1786596362072
+  "updatedAt": 1786596766161
 }

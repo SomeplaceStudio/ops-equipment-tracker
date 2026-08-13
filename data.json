@@ -313,12 +313,12 @@
       "id": "msr3lme7qjj3o",
       "zone": "攝影棚區",
       "name": "白色軌道燈",
-      "brand": "",
-      "price": 0,
-      "qty": 1,
-      "size": "",
-      "color": "",
-      "spec": "",
+      "brand": "蝦皮",
+      "price": 600,
+      "qty": 10,
+      "size": "L14*Ø5",
+      "color": "鋁材",
+      "spec": "雙北免費到府設定安裝，APP/遙控器/調光調色12W 1320lm 保固一年",
       "url": "",
       "list": null,
       "img": "photos/msr3lme7qjj3o-1786600149919.jpg",
@@ -335,9 +335,9 @@
         "v": ""
       },
       "order": 8,
-      "updatedAt": 1786600151939
+      "updatedAt": 1786601499742
     }
   ],
   "deleted": [],
-  "updatedAt": 1786600154904
+  "updatedAt": 1786601503051
 }

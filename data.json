@@ -44,7 +44,7 @@
     },
     {
       "id": "seed2",
-      "zone": "攝影棚區",
+      "zone": "接待區",
       "brand": "BulbSquare",
       "name": "蘑菇落地燈",
       "price": 0,
@@ -68,7 +68,7 @@
         "v": "no"
       },
       "order": 1,
-      "updatedAt": 1786568616411
+      "updatedAt": 1786596332291
     },
     {
       "id": "seed3",
@@ -227,5 +227,5 @@
     }
   ],
   "deleted": [],
-  "updatedAt": 1786593107249
+  "updatedAt": 1786596335137
 }

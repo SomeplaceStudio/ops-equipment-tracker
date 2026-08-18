@@ -314,7 +314,7 @@
       "zone": "梳化間",
       "name": "丹麥Bruces壁燈仿品",
       "brand": "淘寶",
-      "price": 1840,
+      "price": 950,
       "qty": 2,
       "size": "H45*W5,TH7",
       "color": "鎳色/鐵",
@@ -335,7 +335,7 @@
         "v": ""
       },
       "order": 4,
-      "updatedAt": 1787069124072
+      "updatedAt": 1787069444001
     },
     {
       "id": "msqzekhg8obzj",
@@ -423,5 +423,5 @@
     }
   ],
   "deleted": [],
-  "updatedAt": 1787069415625
+  "updatedAt": 1787069446836
 }

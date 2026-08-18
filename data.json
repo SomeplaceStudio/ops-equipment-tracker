@@ -2,6 +2,34 @@
   "v": 1,
   "items": [
     {
+      "id": "msqvbo7tggkm5",
+      "zone": "梳化間",
+      "name": "矩型吸頂燈",
+      "brand": "聚美照明",
+      "price": 2789,
+      "qty": 1,
+      "size": "L90*W60,110V,138W",
+      "color": "壓克力+鐵藝",
+      "spec": "3000k-6000k，app+遙控器",
+      "url": "",
+      "list": null,
+      "img": "photos/msqvbo7tggkm5-1786586248793.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 0,
+      "updatedAt": 1787068190396
+    },
+    {
       "id": "seed1",
       "zone": "接待區",
       "brand": "Louis Poulsen",
@@ -109,6 +137,34 @@
       "updatedAt": 1786599822971
     },
     {
+      "id": "msr3in48srexd",
+      "zone": "梳化間",
+      "name": "磨砂棕台上盆+鵝頸水龍頭",
+      "brand": "蝦皮",
+      "price": 6000,
+      "qty": 1,
+      "size": "L46*W33*H13.5",
+      "color": "磨砂棕/陶瓷+黑/鋁",
+      "spec": "",
+      "url": "https://tw.shp.ee/SXhJcCnT",
+      "list": null,
+      "img": "photos/msr3in48srexd-1786600010889.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 1,
+      "updatedAt": 1787068190396
+    },
+    {
       "id": "seed2",
       "zone": "接待區",
       "brand": "BulbSquare",
@@ -198,6 +254,34 @@
       "updatedAt": 1786599822971
     },
     {
+      "id": "msrsa8xf7vfv5",
+      "zone": "梳化間",
+      "name": "洞石岩板長桌",
+      "brand": "淘寶",
+      "price": 7400,
+      "qty": 1,
+      "size": "L200*W60*H75",
+      "color": "黃洞石/岩板+不鏽鋼桌腿",
+      "spec": "自行組裝",
+      "url": "【淘宝】7天无理由退货 https://e.tb.cn/h.8hVNONVMMOxQdYn?tk=uyZsT02uAdA tG-#22>lD 「意式书桌岩板双人客厅办公桌沙发后长条桌哑光家用学习桌阿玛尼灰」 点击链接直接打开 或者 淘宝搜索直接打开",
+      "list": null,
+      "img": "photos/msrsa8xf7vfv5-1786641609651.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 2,
+      "updatedAt": 1787068190396
+    },
+    {
       "id": "msr1pa1pm64qa",
       "zone": "廁所",
       "name": "淋浴套組A-槍灰色",
@@ -226,18 +310,18 @@
       "updatedAt": 1786599822971
     },
     {
-      "id": "msqvbo7tggkm5",
+      "id": "msyu96vmj45co",
       "zone": "梳化間",
-      "name": "矩型吸頂燈",
-      "brand": "聚美照明",
-      "price": 2789,
+      "name": "丹麥Bruces壁燈仿品",
+      "brand": "淘寶",
+      "price": 0,
       "qty": 1,
-      "size": "L90*W60,110V,138W",
-      "color": "壓克力+鐵藝",
-      "spec": "3000k-6000k，app+遙控器",
-      "url": "",
+      "size": "H45*W5,TH7",
+      "color": "鐵藝",
+      "spec": "110～220V",
+      "url": "【淘宝】30天价保 https://e.tb.cn/h.88J52LsfPAjrsTb?tk=lX1IT1LWAKk CZ007 「西柚 · 丹麦 Bruces壁灯  复古长条壁灯 中古壁墙灯设计师款」 点击链接直接打开 或者 淘宝搜索直接打开",
       "list": null,
-      "img": "photos/msqvbo7tggkm5-1786586248793.jpg",
+      "img": "photos/msyu96vmj45co-1787068182802.jpg",
       "status": "待確認",
       "log": [],
       "d": {
@@ -251,7 +335,7 @@
         "v": ""
       },
       "order": 4,
-      "updatedAt": 1786586556626
+      "updatedAt": 1787068190396
     },
     {
       "id": "msqzekhg8obzj",
@@ -282,34 +366,6 @@
       "updatedAt": 1786593104315
     },
     {
-      "id": "msr3in48srexd",
-      "zone": "梳化間",
-      "name": "磨砂棕台上盆+鵝頸水龍頭",
-      "brand": "蝦皮",
-      "price": 6000,
-      "qty": 1,
-      "size": "L46*W33*H13.5",
-      "color": "磨砂棕/陶瓷+黑/鋁",
-      "spec": "",
-      "url": "https://tw.shp.ee/SXhJcCnT",
-      "list": null,
-      "img": "photos/msr3in48srexd-1786600010889.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "order": 7,
-      "updatedAt": 1786600012627
-    },
-    {
       "id": "msr3lme7qjj3o",
       "zone": "攝影棚區",
       "name": "白色軌道燈",
@@ -336,64 +392,8 @@
       },
       "order": 8,
       "updatedAt": 1786620673330
-    },
-    {
-      "id": "msrsa8xf7vfv5",
-      "zone": "梳化間",
-      "name": "洞石岩板長桌",
-      "brand": "淘寶",
-      "price": 7400,
-      "qty": 1,
-      "size": "L200*W60*H75",
-      "color": "黃洞石/岩板+不鏽鋼桌腿",
-      "spec": "自行組裝",
-      "url": "【淘宝】7天无理由退货 https://e.tb.cn/h.8hVNONVMMOxQdYn?tk=uyZsT02uAdA tG-#22>lD 「意式书桌岩板双人客厅办公桌沙发后长条桌哑光家用学习桌阿玛尼灰」 点击链接直接打开 或者 淘宝搜索直接打开",
-      "list": null,
-      "img": "photos/msrsa8xf7vfv5-1786641609651.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "order": 9,
-      "updatedAt": 1786641611986
-    },
-    {
-      "id": "msyu96vmj45co",
-      "zone": "梳化間",
-      "name": "丹麥Bruces壁燈仿品",
-      "brand": "淘寶",
-      "price": 0,
-      "qty": 1,
-      "size": "H45*W5,TH7",
-      "color": "鐵藝",
-      "spec": "110～220V",
-      "url": "【淘宝】30天价保 https://e.tb.cn/h.88J52LsfPAjrsTb?tk=lX1IT1LWAKk CZ007 「西柚 · 丹麦 Bruces壁灯  复古长条壁灯 中古壁墙灯设计师款」 点击链接直接打开 或者 淘宝搜索直接打开",
-      "list": null,
-      "img": "photos/msyu96vmj45co-1787068182802.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "order": 10,
-      "updatedAt": 1787068184734
     }
   ],
   "deleted": [],
-  "updatedAt": 1787068188245
+  "updatedAt": 1787068193430
 }

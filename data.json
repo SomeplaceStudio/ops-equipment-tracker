@@ -428,8 +428,8 @@
       "brand": "蝦皮/淘寶",
       "price": 5046,
       "qty": 1,
-      "size": "",
-      "color": "",
+      "size": "H72.5*L60*W50,坐高48",
+      "color": "棕色皮革/不鏽鋼",
       "spec": "",
       "url": "https://tw.shp.ee/v37QcfvR",
       "list": null,
@@ -447,9 +447,9 @@
         "v": ""
       },
       "order": 10,
-      "updatedAt": 1787072594557
+      "updatedAt": 1787072840864
     }
   ],
   "deleted": [],
-  "updatedAt": 1787072597653
+  "updatedAt": 1787072843716
 }

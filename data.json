@@ -392,8 +392,36 @@
       },
       "order": 8,
       "updatedAt": 1786620673330
+    },
+    {
+      "id": "msyuziizjmttv",
+      "zone": "梳化間",
+      "name": "Bauhaus化妝補光燈",
+      "brand": "淘寶",
+      "price": 1200,
+      "qty": 2,
+      "size": "",
+      "color": "",
+      "spec": "",
+      "url": "",
+      "list": null,
+      "img": "photos/msyuziizjmttv-1787069410955.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 9,
+      "updatedAt": 1787069412657
     }
   ],
   "deleted": [],
-  "updatedAt": 1787069126936
+  "updatedAt": 1787069415625
 }

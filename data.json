@@ -448,8 +448,36 @@
       },
       "order": 10,
       "updatedAt": 1787072840864
+    },
+    {
+      "id": "msyzonjvzowfn",
+      "zone": "辦公室",
+      "name": "米家智能門鎖S5",
+      "brand": "方舟魚",
+      "price": 1794,
+      "qty": 1,
+      "size": "16.8*65",
+      "color": "",
+      "spec": "孔徑4.8～5.5，門緣到孔心6～7，邊到邊至少3.5，門厚3.5～5",
+      "url": "",
+      "list": null,
+      "img": "photos/msyzonjvzowfn-1787077302332.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 11,
+      "updatedAt": 1787077304090
     }
   ],
   "deleted": [],
-  "updatedAt": 1787072843716
+  "updatedAt": 1787077306966
 }

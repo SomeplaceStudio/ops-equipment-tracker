@@ -364,8 +364,36 @@
       },
       "order": 9,
       "updatedAt": 1786641611986
+    },
+    {
+      "id": "msyu96vmj45co",
+      "zone": "梳化間",
+      "name": "丹麥Bruces壁燈仿品",
+      "brand": "淘寶",
+      "price": 0,
+      "qty": 1,
+      "size": "H45*W5,TH7",
+      "color": "鐵藝",
+      "spec": "110～220V",
+      "url": "【淘宝】30天价保 https://e.tb.cn/h.88J52LsfPAjrsTb?tk=lX1IT1LWAKk CZ007 「西柚 · 丹麦 Bruces壁灯  复古长条壁灯 中古壁墙灯设计师款」 点击链接直接打开 或者 淘宝搜索直接打开",
+      "list": null,
+      "img": "photos/msyu96vmj45co-1787068182802.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 10,
+      "updatedAt": 1787068184734
     }
   ],
   "deleted": [],
-  "updatedAt": 1786950893890
+  "updatedAt": 1787068188245
 }

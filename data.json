@@ -420,8 +420,36 @@
       },
       "order": 9,
       "updatedAt": 1787069412657
+    },
+    {
+      "id": "msywvpuf15d0w",
+      "zone": "梳化間",
+      "name": "不鏽鋼復古皮椅",
+      "brand": "蝦皮/淘寶",
+      "price": 5046,
+      "qty": 1,
+      "size": "",
+      "color": "",
+      "spec": "",
+      "url": "https://tw.shp.ee/v37QcfvR",
+      "list": null,
+      "img": "photos/msywvpuf15d0w-1787072593047.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 10,
+      "updatedAt": 1787072594557
     }
   ],
   "deleted": [],
-  "updatedAt": 1787070057413
+  "updatedAt": 1787072597653
 }

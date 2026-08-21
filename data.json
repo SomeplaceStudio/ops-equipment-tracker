@@ -532,8 +532,36 @@
       },
       "order": 13,
       "updatedAt": 1787346245709
+    },
+    {
+      "id": "mt3gak2k2lset",
+      "zone": "接待區",
+      "name": "二連（雙聯）不鏽鋼盒接線盒",
+      "brand": "允順",
+      "price": 420,
+      "qty": 1,
+      "size": "13x13x4.5cm",
+      "color": "",
+      "spec": "",
+      "url": "https://www.wenshun.com.tw/products/st-box2",
+      "list": null,
+      "img": "photos/mt3gak2k2lset-1787347062812.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 14,
+      "updatedAt": 1787347065599
     }
   ],
   "deleted": [],
-  "updatedAt": 1787346268988
+  "updatedAt": 1787347069062
 }

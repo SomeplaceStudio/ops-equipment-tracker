@@ -484,7 +484,7 @@
       "brand": "Rulu",
       "price": 0,
       "qty": 1,
-      "size": "12*12",
+      "size": "12x12cm",
       "color": "鍍鋅",
       "spec": "",
       "url": "https://www.rulu-hardware.com/catalogues/",
@@ -503,7 +503,7 @@
         "v": ""
       },
       "order": 12,
-      "updatedAt": 1787345863050
+      "updatedAt": 1787346265618
     },
     {
       "id": "mt3fszrc9a0ao",
@@ -535,5 +535,5 @@
     }
   ],
   "deleted": [],
-  "updatedAt": 1787346248770
+  "updatedAt": 1787346268988
 }

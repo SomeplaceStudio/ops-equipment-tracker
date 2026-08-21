@@ -560,8 +560,36 @@
       },
       "order": 14,
       "updatedAt": 1787347065599
+    },
+    {
+      "id": "mt3gkaeh0s174",
+      "zone": "接待區",
+      "name": "switchpapa鋁合金陽極銀省空間系列（客製品）",
+      "brand": "switchpapa",
+      "price": 1870,
+      "qty": 1,
+      "size": "三格：177 × 35 × 6mm",
+      "color": "",
+      "spec": "",
+      "url": "https://switchpapa.com/product/sps01/",
+      "list": null,
+      "img": "photos/mt3gkaeh0s174-1787347516842.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 15,
+      "updatedAt": 1787347519587
     }
   ],
   "deleted": [],
-  "updatedAt": 1787347069062
+  "updatedAt": 1787347523613
 }

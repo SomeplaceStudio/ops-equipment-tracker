@@ -476,8 +476,36 @@
       },
       "order": 11,
       "updatedAt": 1787077304090
+    },
+    {
+      "id": "mt3fksjtnbeeg",
+      "zone": "接待區",
+      "name": "鍍鋅含盒復古開關4開 #13-0022",
+      "brand": "Rulu",
+      "price": 0,
+      "qty": 1,
+      "size": "12*12",
+      "color": "鍍鋅",
+      "spec": "",
+      "url": "https://www.rulu-hardware.com/catalogues/",
+      "list": null,
+      "img": "photos/mt3fksjtnbeeg-1787345860745.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 12,
+      "updatedAt": 1787345863050
     }
   ],
   "deleted": [],
-  "updatedAt": 1787077306966
+  "updatedAt": 1787345866229
 }

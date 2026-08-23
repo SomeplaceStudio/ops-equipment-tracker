@@ -588,8 +588,36 @@
       },
       "order": 15,
       "updatedAt": 1787347519587
+    },
+    {
+      "id": "mt6155tpaym56",
+      "zone": "廁所",
+      "name": "台達電子豪華300系列 線控 韻律風門 多功能循環涼暖風扇 VHB30ACMT-AD/VHB30BCMT-AD",
+      "brand": "",
+      "price": 0,
+      "qty": 1,
+      "size": "",
+      "color": "",
+      "spec": "",
+      "url": "https://www.momoshop.com.tw/product/14982246?osm=Ad07&utm_source=googleshop&utm_medium=googleshop-pla-house&gad_source=1&gad_campaignid=22979690781&gbraid=0AAAAADlbkmOv9z17QGFX6udKJQQ7UPh5M&gclid=CjwKCAjwtKrUBhAhEiwAr77ZoiONC-1mM3Qtiyby57Ddl1fEWNr-cPkmrkWzWOueZr9DLalHQU5r-RoC4DkQAvD_BwE",
+      "list": null,
+      "img": "",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 16,
+      "updatedAt": 1787503015358
     }
   ],
   "deleted": [],
-  "updatedAt": 1787347523613
+  "updatedAt": 1787503018342
 }

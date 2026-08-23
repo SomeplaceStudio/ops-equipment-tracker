@@ -616,8 +616,36 @@
       },
       "order": 16,
       "updatedAt": 1787503082572
+    },
+    {
+      "id": "mt61927poqs8x",
+      "zone": "廁所",
+      "name": "Panasonic 國際牌FV-30BUY3R/FV-30BUY3W 陶瓷加熱/浴室暖風乾燥機 暖風機 線控",
+      "brand": "Panasonic",
+      "price": 6900,
+      "qty": 1,
+      "size": "",
+      "color": "",
+      "spec": "",
+      "url": "https://www.momoshop.com.tw/product/13798331?srsltid=AfmBOopczgslpbZBPENpkK8Yz58YPf1Oas0VY0Pw_Lky8LaB3r_l47RM",
+      "list": null,
+      "img": "",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 17,
+      "updatedAt": 1787503197301
     }
   ],
   "deleted": [],
-  "updatedAt": 1787503085537
+  "updatedAt": 1787503200303
 }

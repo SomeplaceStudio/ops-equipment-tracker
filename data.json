@@ -644,8 +644,36 @@
       },
       "order": 17,
       "updatedAt": 1787503221762
+    },
+    {
+      "id": "mt61owg70kh6c",
+      "zone": "攝影棚區",
+      "name": "【台灣原廠公司貨】SONOS Era 100 無線智慧音響｜白",
+      "brand": "",
+      "price": 0,
+      "qty": 1,
+      "size": "",
+      "color": "",
+      "spec": "",
+      "url": "https://www.ai-tec.com.tw/products/se02?srsltid=AfmBOoqgyAz-RoDEkB850cB9m4qHsk9xEw3ugKxdepoL6goQZzkObECB",
+      "list": null,
+      "img": "photos/mt61owg70kh6c-1787503936327.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 18,
+      "updatedAt": 1787503938078
     }
   ],
   "deleted": [],
-  "updatedAt": 1787503223876
+  "updatedAt": 1787503941051
 }

@@ -266,8 +266,13 @@
       "url": "https://tw.shp.ee/acfiNvij",
       "list": null,
       "img": "photos/msr1pa1pm64qa-1786596961309.jpg",
-      "status": "待確認",
-      "log": [],
+      "status": "已付款",
+      "log": [
+        {
+          "k": "已付款",
+          "at": "10/19"
+        }
+      ],
       "d": {
         "text": "",
         "at": "",
@@ -279,7 +284,7 @@
         "v": ""
       },
       "order": 3,
-      "updatedAt": 1792345639257
+      "updatedAt": 1792345674770
     },
     {
       "id": "msqzekhg8obzj",
@@ -632,5 +637,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792345642308
+  "updatedAt": 1792345678403
 }

@@ -282,34 +282,6 @@
       "updatedAt": 1786599822971
     },
     {
-      "id": "msyu96vmj45co",
-      "zone": "梳化間",
-      "name": "丹麥Bruces壁燈仿品",
-      "brand": "淘寶",
-      "price": 950,
-      "qty": 2,
-      "size": "H45*W5,TH7",
-      "color": "鎳色/鐵",
-      "spec": "110～220V",
-      "url": "【淘宝】大促价保 https://e.tb.cn/h.8iNEhT43wZFexHe?tk=P0iuT1LtbMk CZ007 「包豪斯极简长条壁灯客厅背景格栅墙灯工业复古设计师走廊楼梯壁灯」 点击链接直接打开 或者 淘宝搜索直接打开",
-      "list": null,
-      "img": "photos/msyu96vmj45co-1787068182802.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "喜歡這款",
-        "at": "08/19 00:20",
-        "v": ""
-      },
-      "order": 4,
-      "updatedAt": 1787070054390
-    },
-    {
       "id": "msqzekhg8obzj",
       "zone": "辦公室",
       "name": "隱藏門",
@@ -648,6 +620,10 @@
   ],
   "deleted": [
     {
+      "id": "msyu96vmj45co",
+      "at": 1792345577365
+    },
+    {
       "id": "mt3fksjtnbeeg",
       "at": 1788166974624
     },
@@ -656,5 +632,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792345570119
+  "updatedAt": 1792345580363
 }

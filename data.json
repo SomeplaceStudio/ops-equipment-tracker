@@ -165,34 +165,6 @@
       "updatedAt": 1787068190396
     },
     {
-      "id": "seed2",
-      "zone": "接待區",
-      "brand": "BulbSquare",
-      "name": "蘑菇落地燈",
-      "price": 0,
-      "list": null,
-      "qty": 1,
-      "size": "H140cm",
-      "color": "綠／紅（未定）",
-      "spec": "實景區氛圍燈，顏色需與地毯一起看",
-      "url": "",
-      "img": "photos/seed2-1786568614552.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "紅色跟地毯會打架，投綠色一票。",
-        "at": "08/02 21:05",
-        "v": "no"
-      },
-      "order": 1,
-      "updatedAt": 1786950891002
-    },
-    {
       "id": "msqwmp0210yn6",
       "zone": "接待區",
       "name": "定制實木大門",
@@ -650,7 +622,11 @@
     {
       "id": "mt3fksjtnbeeg",
       "at": 1788166974624
+    },
+    {
+      "id": "seed2",
+      "at": 1792343131129
     }
   ],
-  "updatedAt": 1788166977673
+  "updatedAt": 1792343134812
 }

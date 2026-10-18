@@ -198,34 +198,6 @@
       "updatedAt": 1786950891002
     },
     {
-      "id": "msr1kzhon1fc6",
-      "zone": "廁所",
-      "name": "淋浴套組B-槍灰色",
-      "brand": "蝦皮",
-      "price": 3700,
-      "qty": 1,
-      "size": "L27.1*W11.5*H5",
-      "color": "槍灰色/全銅",
-      "spec": "安裝管距13.5～16.5cm",
-      "url": "https://tw.shp.ee/4Sjfj6VE",
-      "list": null,
-      "img": "photos/msr1kzhon1fc6-1786596761004.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "order": 2,
-      "updatedAt": 1786599822971
-    },
-    {
       "id": "msrsa8xf7vfv5",
       "zone": "梳化間",
       "name": "洞石岩板長桌",
@@ -625,6 +597,10 @@
   ],
   "deleted": [
     {
+      "id": "msr1kzhon1fc6",
+      "at": 1792345712106
+    },
+    {
       "id": "msyu96vmj45co",
       "at": 1792345577365
     },
@@ -637,5 +613,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792345678403
+  "updatedAt": 1792345715085
 }

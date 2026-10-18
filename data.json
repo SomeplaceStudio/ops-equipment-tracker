@@ -626,6 +626,34 @@
       },
       "order": 20,
       "updatedAt": 1792345978844
+    },
+    {
+      "id": "mve4qxlsz5vwt",
+      "zone": "梳化間",
+      "name": "二孔分離式面盆龍頭",
+      "brand": "BACHOR",
+      "price": 4212,
+      "qty": 1,
+      "size": "W20xH29.5",
+      "color": "銅/銀",
+      "spec": "落水高度H15.5",
+      "url": "https://24h.pchome.com.tw/prod/DEDW0C-A900JFC21?srsltid=AU7gw4XDYddMt6VunBLW8BpSd7hciCdBGI0VNXJ97NWtsZ1MQtUJDHcB",
+      "list": null,
+      "img": "photos/mve4qxlsz5vwt-1792346364064.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 21,
+      "updatedAt": 1792346365792
     }
   ],
   "deleted": [
@@ -646,5 +674,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792345981850
+  "updatedAt": 1792346368773
 }

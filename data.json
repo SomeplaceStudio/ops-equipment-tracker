@@ -665,6 +665,34 @@
       },
       "order": 23,
       "updatedAt": 1792941658481
+    },
+    {
+      "id": "mvnzin8l8z7x9",
+      "zone": "梳化間",
+      "name": "極簡風冷熱雙孔分體式水龍頭",
+      "brand": "淘寶",
+      "price": 2764,
+      "qty": 1,
+      "size": "H35",
+      "color": "銅",
+      "spec": "出水高度H22cm",
+      "url": "https://item.taobao.com/item.htm?id=811615636117&mi_id=0000Jq9oltsCRxe0U9NYLEBxnQvcvJ_x9lrLgXjIQTrRYBY&spm=tbpc.boughtlist.suborder_itemtitle.1.d3182e8dQhY6r7&skuId=5766108169005",
+      "list": null,
+      "img": "photos/mvnzin8l8z7x9-1792942241061.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 24,
+      "updatedAt": 1792942242634
     }
   ],
   "deleted": [
@@ -697,5 +725,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792941661467
+  "updatedAt": 1792942245664
 }

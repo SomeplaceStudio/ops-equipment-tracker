@@ -768,6 +768,34 @@
       },
       "order": 26,
       "updatedAt": 1792947168059
+    },
+    {
+      "id": "mvo4cmdeh4ps7",
+      "zone": "攝影棚區",
+      "name": "3軸電動背景組(含橫桿)",
+      "brand": "Keystone",
+      "price": 6400,
+      "qty": 1,
+      "size": "",
+      "color": "",
+      "spec": "內附3支直徑48mm，長度3公尺的不鏽鋼橫桿，可用紅外線遙控器控制，",
+      "url": "https://www.kphoto.com.tw/index.php?route=product/product&product_id=31153&tag_id=258&category_id=17",
+      "list": null,
+      "img": "photos/mvo4cmdeh4ps7-1792950358082.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 27,
+      "updatedAt": 1792950359644
     }
   ],
   "deleted": [
@@ -800,5 +828,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792948129683
+  "updatedAt": 1792950362664
 }

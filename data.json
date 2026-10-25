@@ -740,10 +740,14 @@
       "url": "https://www.mi.com/tw/product/xiaomi-outdoor-camera-cw500-dual/",
       "list": null,
       "img": "photos/mvo2ej0yinnpn-1792947087826.jpg",
-      "status": "已付款",
+      "status": "已送達",
       "log": [
         {
           "k": "已付款",
+          "at": "10/26"
+        },
+        {
+          "k": "已送達",
           "at": "10/26"
         }
       ],
@@ -758,7 +762,7 @@
         "v": ""
       },
       "order": 26,
-      "updatedAt": 1792947157010
+      "updatedAt": 1792947168059
     }
   ],
   "deleted": [
@@ -791,5 +795,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792947160109
+  "updatedAt": 1792947171165
 }

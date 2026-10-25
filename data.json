@@ -607,11 +607,15 @@
       "url": "https://shopee.tw/%E3%80%8C%E5%8F%B0%E7%81%A3%E5%87%BA%E8%B2%A8%E3%80%8D%E9%98%B2%E8%87%AD%E8%90%BD%E6%B0%B4%E9%A0%AD-%E5%9C%B0%E6%BC%8F-%E8%90%BD%E6%B0%B4%E9%A0%AD-%E5%85%A8%E9%8A%85%E6%BF%BE%E8%8A%AF-%E9%9A%B1%E5%BD%A2%E5%9C%B0%E6%BC%8F-%E6%8E%92%E6%B0%B4%E5%AD%94-%E6%8E%92%E6%B0%B4%E8%93%8B-i.52216567.24128857528",
       "list": null,
       "img": "photos/mve4iepvzgoee-1792345966339.jpg",
-      "status": "已付款",
+      "status": "已送達",
       "log": [
         {
           "k": "已付款",
           "at": "10/19"
+        },
+        {
+          "k": "已送達",
+          "at": "10/25"
         }
       ],
       "d": {
@@ -625,7 +629,7 @@
         "v": ""
       },
       "order": 20,
-      "updatedAt": 1792345978844
+      "updatedAt": 1792938699280
     },
     {
       "id": "mve4qxlsz5vwt",
@@ -674,5 +678,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792346389457
+  "updatedAt": 1792938702397
 }

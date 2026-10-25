@@ -323,7 +323,7 @@
       "zone": "梳化間",
       "name": "Bauhaus化妝補光燈",
       "brand": "淘寶",
-      "price": 1200,
+      "price": 1184,
       "qty": 2,
       "size": "",
       "color": "",
@@ -353,7 +353,7 @@
         "v": ""
       },
       "order": 9,
-      "updatedAt": 1792940827448
+      "updatedAt": 1792940866544
     },
     {
       "id": "msywvpuf15d0w",
@@ -667,5 +667,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792940830403
+  "updatedAt": 1792940869534
 }

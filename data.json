@@ -642,10 +642,14 @@
       "url": "https://detail.tmall.com/item.htm?id=964416246250&mi_id=0000_oNeX0AAemXTRT_JgsJzdbGyBxeLqB7GywJUC8VlxRc&skuId=6120653228659&spm=tbpc.boughtlist.suborder_itemtitle.1.d3182e8dQhY6r7",
       "list": null,
       "img": "photos/mvnz5tvq3n16e-1792941643142.jpg",
-      "status": "已付款",
+      "status": "已出貨",
       "log": [
         {
           "k": "已付款",
+          "at": "10/25"
+        },
+        {
+          "k": "已出貨",
           "at": "10/25"
         }
       ],
@@ -660,7 +664,7 @@
         "v": ""
       },
       "order": 23,
-      "updatedAt": 1792941651867
+      "updatedAt": 1792941658481
     }
   ],
   "deleted": [
@@ -693,5 +697,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792941653970
+  "updatedAt": 1792941661467
 }

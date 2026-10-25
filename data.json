@@ -768,6 +768,34 @@
       },
       "order": 27,
       "updatedAt": 1792950359644
+    },
+    {
+      "id": "mvo4xslqlisb6",
+      "zone": "廁所",
+      "name": "隔間鎖門把",
+      "brand": "coupong",
+      "price": 1381,
+      "qty": 1,
+      "size": "",
+      "color": "",
+      "spec": "",
+      "url": "https://www.tw.coupang.com/products/%E6%B5%B4%E5%AE%A4%E9%96%80%E9%8E%96-%E5%BB%81%E6%89%80%E6%8C%87%E7%A4%BA%E9%8E%96-%E6%9C%89%E4%BA%BA%E7%84%A1%E4%BA%BA%E6%97%8B%E9%88%95%E9%8E%96-%E9%9A%94%E9%96%93%E9%8E%96-724364542361618",
+      "list": null,
+      "img": "photos/mvo4xslqlisb6-1792951345934.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 28,
+      "updatedAt": 1792951347705
     }
   ],
   "deleted": [
@@ -804,5 +832,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792950383756
+  "updatedAt": 1792951350822
 }

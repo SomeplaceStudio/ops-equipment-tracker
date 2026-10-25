@@ -137,34 +137,6 @@
       "updatedAt": 1786599822971
     },
     {
-      "id": "msr3in48srexd",
-      "zone": "梳化間",
-      "name": "磨砂棕台上盆+鵝頸水龍頭",
-      "brand": "蝦皮",
-      "price": 6000,
-      "qty": 1,
-      "size": "L46*W33*H13.5",
-      "color": "磨砂棕/陶瓷+黑/鋁",
-      "spec": "",
-      "url": "https://tw.shp.ee/SXhJcCnT",
-      "list": null,
-      "img": "photos/msr3in48srexd-1786600010889.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "order": 1,
-      "updatedAt": 1787068190396
-    },
-    {
       "id": "msqwmp0210yn6",
       "zone": "接待區",
       "name": "定制實木大門",
@@ -651,6 +623,10 @@
       "at": 1792345712106
     },
     {
+      "id": "msr3in48srexd",
+      "at": 1792940885927
+    },
+    {
       "id": "msyu96vmj45co",
       "at": 1792345577365
     },
@@ -667,5 +643,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792940869534
+  "updatedAt": 1792940888897
 }

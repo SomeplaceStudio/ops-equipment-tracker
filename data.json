@@ -679,8 +679,13 @@
       "url": "https://item.taobao.com/item.htm?id=811615636117&mi_id=0000Jq9oltsCRxe0U9NYLEBxnQvcvJ_x9lrLgXjIQTrRYBY&spm=tbpc.boughtlist.suborder_itemtitle.1.d3182e8dQhY6r7&skuId=5766108169005",
       "list": null,
       "img": "photos/mvnzin8l8z7x9-1792942282485.jpg",
-      "status": "待確認",
-      "log": [],
+      "status": "已付款",
+      "log": [
+        {
+          "k": "已付款",
+          "at": "10/25"
+        }
+      ],
       "d": {
         "text": "",
         "at": "",
@@ -692,7 +697,7 @@
         "v": ""
       },
       "order": 24,
-      "updatedAt": 1792942284098
+      "updatedAt": 1792942290458
     }
   ],
   "deleted": [
@@ -725,5 +730,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792942287087
+  "updatedAt": 1792942293466
 }

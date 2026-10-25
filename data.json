@@ -524,34 +524,6 @@
       "updatedAt": 1787503938078
     },
     {
-      "id": "mve49tbpv290l",
-      "zone": "梳化間",
-      "name": "工業風方形高水龍頭(可旋轉)",
-      "brand": "蝦皮",
-      "price": 1400,
-      "qty": 1,
-      "size": "W21xH36",
-      "color": "黑or銀/304不鏽鋼",
-      "spec": "落水高度H32",
-      "url": "https://shopee.tw/%E9%BB%91%E8%89%B2-%E5%B7%A5%E6%A5%AD%E9%A2%A8-%E5%B7%A8%E7%84%A1%E9%9C%B8%E6%AC%BE-304%E4%B8%8D%E9%8F%BD%E9%8B%BC-%E5%BB%9A%E6%88%BF%E9%BE%8D%E9%A0%AD-%E6%B5%81%E7%90%86%E8%87%BA%E9%BE%8D%E9%A0%AD-%E6%B0%B4%E6%A7%BD%E9%BE%8D%E9%A0%AD-%E5%8F%AF%E6%97%8B%E8%BD%89-%E6%96%B9%E5%9E%8B-%E5%90%A7%E6%AA%AF-%E7%84%A1%E9%89%9B-360%E5%BA%A6%E7%84%A1%E6%AD%BB%E8%A7%92-%E9%8A%80%E8%89%B2-i.2645489.22637328423?extraParams=%7B%22display_model_id%22%3A175802741065%2C%22model_selection_logic%22%3A3%7D&sp_atk=315a37eb-4d17-485f-9dd5-7495965a60fe&xptdk=315a37eb-4d17-485f-9dd5-7495965a60fe",
-      "list": null,
-      "img": "photos/mve49tbpv290l-1792345565365.jpg",
-      "status": "待確認",
-      "log": [],
-      "d": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "p": {
-        "text": "",
-        "at": "",
-        "v": ""
-      },
-      "order": 19,
-      "updatedAt": 1792346386491
-    },
-    {
       "id": "mve4iepvzgoee",
       "zone": "廁所",
       "name": "方形地漏(可嵌磁磚款)",
@@ -676,9 +648,13 @@
       "at": 1792938824458
     },
     {
+      "id": "mve49tbpv290l",
+      "at": 1792941179696
+    },
+    {
       "id": "seed2",
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792941169591
+  "updatedAt": 1792941182797
 }

@@ -726,6 +726,34 @@
       },
       "order": 25,
       "updatedAt": 1792946251782
+    },
+    {
+      "id": "mvo2ej0yinnpn",
+      "zone": "接待區",
+      "name": "Xiaomi  室外攝影機 CW500 雙攝版",
+      "brand": "台灣小米",
+      "price": 1959,
+      "qty": 1,
+      "size": "",
+      "color": "",
+      "spec": "放在室外(騎樓)",
+      "url": "https://www.mi.com/tw/product/xiaomi-outdoor-camera-cw500-dual/",
+      "list": null,
+      "img": "photos/mvo2ej0yinnpn-1792947087826.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 26,
+      "updatedAt": 1792947089747
     }
   ],
   "deleted": [
@@ -758,5 +786,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792946253971
+  "updatedAt": 1792947092862
 }

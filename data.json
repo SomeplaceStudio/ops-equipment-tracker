@@ -615,6 +615,34 @@
       },
       "order": 21,
       "updatedAt": 1792346365792
+    },
+    {
+      "id": "mvnyv2x1o2f3b",
+      "zone": "梳化間",
+      "name": "北歐風圓形台上陶盆啞光棕",
+      "brand": "淘寶",
+      "price": 1653,
+      "qty": 1,
+      "size": "Ø40,H12",
+      "color": "啞光棕/陶瓷",
+      "spec": "1400盆+253木架固定",
+      "url": "https://item.taobao.com/item.htm?id=1022626415095&mi_id=0000cWBF3Ta0ntDHMyQ7wnCWaSxTd1JxNeqpJozIB6G2-XE&spm=tbpc.boughtlist.suborder_itempic.d1022626415095.d3182e8dQhY6r7",
+      "list": null,
+      "img": "photos/mvnyv2x1o2f3b-1792941141638.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 22,
+      "updatedAt": 1792941143492
     }
   ],
   "deleted": [
@@ -643,5 +671,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792940888897
+  "updatedAt": 1792941146470
 }

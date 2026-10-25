@@ -698,6 +698,34 @@
       },
       "order": 24,
       "updatedAt": 1792942290458
+    },
+    {
+      "id": "mvo1wkfksm0nn",
+      "zone": "接待區",
+      "name": "Xiaomi 智慧攝影機 C701",
+      "brand": "台灣小米",
+      "price": 1549,
+      "qty": 2,
+      "size": "",
+      "color": "",
+      "spec": "",
+      "url": "https://www.mi.com/tw/product/xiaomi-smart-camera-c701/",
+      "list": null,
+      "img": "photos/mvo1wkfksm0nn-1792946249840.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 25,
+      "updatedAt": 1792946251782
     }
   ],
   "deleted": [
@@ -730,5 +758,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792942293466
+  "updatedAt": 1792946253971
 }

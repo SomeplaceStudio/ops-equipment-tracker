@@ -712,8 +712,13 @@
       "url": "https://www.mi.com/tw/product/xiaomi-smart-camera-c701/",
       "list": null,
       "img": "photos/mvo1wkfksm0nn-1792946249840.jpg",
-      "status": "待確認",
-      "log": [],
+      "status": "已確認選用",
+      "log": [
+        {
+          "k": "已確認選用",
+          "at": "10/26"
+        }
+      ],
       "d": {
         "text": "",
         "at": "",
@@ -725,7 +730,7 @@
         "v": ""
       },
       "order": 25,
-      "updatedAt": 1792946251782
+      "updatedAt": 1792948126696
     },
     {
       "id": "mvo2ej0yinnpn",
@@ -795,5 +800,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1792947171165
+  "updatedAt": 1792948129683
 }

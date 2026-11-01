@@ -805,6 +805,34 @@
       },
       "order": 28,
       "updatedAt": 1792951347705
+    },
+    {
+      "id": "mvy28eul2qavb",
+      "zone": "辦公室",
+      "name": "Mini+ 電動升降桌（二節式）",
+      "brand": "FUNTE",
+      "price": 10111,
+      "qty": 1,
+      "size": "L120*W60",
+      "color": "",
+      "spec": "菸草橡木 / 120*60公分(四方前上斜) / 二節式 - 黑腳",
+      "url": "https://www.funtetw.com/products/mini-standing-desk-coupled",
+      "list": null,
+      "img": "photos/mvy28eul2qavb-1793551464237.jpg",
+      "status": "待確認",
+      "log": [],
+      "d": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "p": {
+        "text": "",
+        "at": "",
+        "v": ""
+      },
+      "order": 29,
+      "updatedAt": 1793551465813
     }
   ],
   "deleted": [
@@ -841,5 +869,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1793550356883
+  "updatedAt": 1793551468685
 }

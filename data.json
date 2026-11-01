@@ -819,8 +819,13 @@
       "url": "https://www.funtetw.com/products/mini-standing-desk-coupled",
       "list": null,
       "img": "photos/mvy28eul2qavb-1793551464237.jpg",
-      "status": "待確認",
-      "log": [],
+      "status": "已確認選用",
+      "log": [
+        {
+          "k": "已確認選用",
+          "at": "11/02"
+        }
+      ],
       "d": {
         "text": "",
         "at": "",
@@ -832,7 +837,7 @@
         "v": ""
       },
       "order": 29,
-      "updatedAt": 1793551465813
+      "updatedAt": 1793551472165
     }
   ],
   "deleted": [
@@ -869,5 +874,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1793551468685
+  "updatedAt": 1793552077201
 }

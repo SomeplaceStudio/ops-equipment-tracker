@@ -83,11 +83,15 @@
       "spec": "管距須現場複測後才能下單",
       "url": "https://www.ovotoilet.com/zh-TW/Products/Product?guid=24031314485348",
       "img": "photos/seed3-1786567875574.jpg",
-      "status": "已確認選用",
+      "status": "已下訂",
       "log": [
         {
           "k": "已確認選用",
           "at": "08/05"
+        },
+        {
+          "k": "已下訂",
+          "at": "11/09"
         }
       ],
       "d": {
@@ -101,7 +105,7 @@
         "v": ""
       },
       "order": 0,
-      "updatedAt": 1794156195358
+      "updatedAt": 1794156207748
     },
     {
       "id": "msqkkzgoso85e",
@@ -924,5 +928,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1794156198025
+  "updatedAt": 1794156210746
 }

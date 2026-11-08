@@ -473,11 +473,15 @@
       "url": "https://www.momoshop.com.tw/product/13798331?srsltid=AfmBOopczgslpbZBPENpkK8Yz58YPf1Oas0VY0Pw_Lky8LaB3r_l47RM",
       "list": null,
       "img": "photos/mt61927poqs8x-1787503220396.jpg",
-      "status": "已付款",
+      "status": "已送達",
       "log": [
         {
           "k": "已付款",
           "at": "11/02"
+        },
+        {
+          "k": "已送達",
+          "at": "11/09"
         }
       ],
       "d": {
@@ -491,7 +495,7 @@
         "v": ""
       },
       "order": 17,
-      "updatedAt": 1793555900927
+      "updatedAt": 1794156252501
     },
     {
       "id": "mt61owg70kh6c",
@@ -908,5 +912,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1794156247372
+  "updatedAt": 1794156255530
 }

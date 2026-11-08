@@ -74,11 +74,11 @@
       "id": "seed3",
       "zone": "廁所",
       "brand": "OVO 京典",
-      "name": "C3379 單體馬桶",
-      "price": 10800,
+      "name": "C4379 單體馬桶",
+      "price": 9800,
       "list": 18500,
       "qty": 1,
-      "size": "D65xW37xH76cm,管距 30cm",
+      "size": "D65xW37xH76cm,管距 40cm",
       "color": "白",
       "spec": "管距須現場複測後才能下單",
       "url": "https://www.ovotoilet.com/zh-TW/Products/Product?guid=24031314485348",
@@ -101,7 +101,7 @@
         "v": ""
       },
       "order": 0,
-      "updatedAt": 1786599822971
+      "updatedAt": 1794156195358
     },
     {
       "id": "msqkkzgoso85e",
@@ -924,5 +924,5 @@
       "at": 1792343131129
     }
   ],
-  "updatedAt": 1794156134919
+  "updatedAt": 1794156198025
 }
